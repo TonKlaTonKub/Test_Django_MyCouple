@@ -1,0 +1,24 @@
+Start Virtual Environment
+.\venv\scripts\activare
+
+Start Server Django ต้องเข้าไปใน โฟร์เดอร์ของโปรเจคก่อน
+python manage.py runserver
+
+เข้าหน้าเว็บ
+localhost:8000
+
+เข้าหน้า admin
+localhost:8000/admin
+
+User / Pass
+admin / admin
+
+คำสั่ง Migrate (จะทำหน้าที่ไปสร้างฐานข้อมูลอัตโนมัติ)
+python manage.py migrate
+
+คำสั่งสร้าง SuperUser
+python manage.py createsuperuser
+
+ทดสอบเว็บออนไลน์ด้วย NGROK โดย cd เข้าไปที่ โฟร์เดอร์ของ ngrok ในส่วนของ เว็บก่อน
+(คำสั่งลง)ngrok http 8000
+(คำสั่ง เริ่มใช้งาน) ,\ngrok http 8000
