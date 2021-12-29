@@ -1,0 +1,44 @@
+{% extends 'home/base.html' %}
+{% load static %}
+
+{% block title %}
+ติดต่อเรา
+{% endblock title %}
+
+{% block content %}
+
+<div class="container">
+
+    <form method="POST">
+        
+        <div class="form-group">
+            <label for="title">
+                สอบถามหัวข้อ
+            </label>
+            <input class="form-control" type="text" name="title" id="title">
+        </div>
+        <br>
+
+        <div class="form-group">
+            <label for="email">
+                Email
+            </label>
+            <input class="form-control" type="text" name="email" id="email">
+        </div>
+        <br>
+
+        <div class="form-group">
+            <label for="detail">
+                รายละเอียด
+            </label>
+            <textarea class="form-control" row="5" name="detail" id="detail"></textarea>
+        </div>
+        <br><br>
+
+        <button type="submit" class="btn btn-primary">ส่งข้อมูล</button>
+        
+    </form>
+
+</div>
+
+{% endblock content%}
