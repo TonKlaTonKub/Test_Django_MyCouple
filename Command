@@ -28,3 +28,7 @@ python manage.py createsuperuser
 ทดสอบเว็บออนไลน์ด้วย NGROK โดย cd เข้าไปที่ โฟร์เดอร์ของ ngrok ในส่วนของ เว็บก่อน
 (คำสั่งลง)ngrok http 8000
 (คำสั่ง เริ่มใช้งาน) ,\ngrok http 8000
+
+คำสั่งสร้าง Database ให้เข้าไปที่โฟล์เดอร์ตัวงาน
+python manage.py makemigration
+
