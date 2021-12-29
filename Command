@@ -1,3 +1,9 @@
+สร้าง Virtual Environment
+pip install virtualenv (การลง Virtualenv)
+
+python -m virtualenv venv (การสร้าง Vitrualenv)
+
+
 Start Virtual Environment
 .\venv\scripts\activare
 
