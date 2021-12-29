@@ -31,4 +31,5 @@ python manage.py createsuperuser
 
 คำสั่งสร้าง Database ให้เข้าไปที่โฟล์เดอร์ตัวงาน
 python manage.py makemigration
+python manage.py migrate (ยืนยันข้อมูล)
 
