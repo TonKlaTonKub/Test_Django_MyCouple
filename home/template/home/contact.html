@@ -7,6 +7,20 @@
 
 {% block content %}
 
+{% if status %} 
+
+        {% if status == 'success' %}
+            <div class="alert alert-success">
+                <strong>Success!</strong> ได้รับขอมูลแล้ว
+            </div>
+        {% else %}
+            <div class="alert alert-warning">
+                <strong>Warning!</strong> ข้อมูลไม่ครบ
+            </div>
+        {% endif %}
+            
+{% endif %}
+
 <div class="container">
 
     <form method="POST">
